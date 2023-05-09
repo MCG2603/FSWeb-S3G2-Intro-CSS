@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Mono',monospace;
+    background-color: white;
+    font-size: 14px;
+}
+
+.container{
+    width :75 px;
+    margin: 0 auto;
+
+}
+
+
+header{
+height: 50px;
+
+}
+
+header nav{
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+header nav a{
+    background:#5ed3eb ;
+    padding: 1%  2%;
+    border-radius: 10px;
+    margin: 0 8%;   
+    color: white;
+    text-decoration: none;
+}
+header nav a:first-child{
+    background: #FF764E;
+
+}
+header nav a:last-child{
+    background:  #FFCD69;
+
+}
+
+
+main img{
+    display: inline-block;
+    width: 18%;
+    margin: 3% 7%;
+   
+    border-radius: 100px;
+    height: 200px;
+}
+main div{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+main{
+    padding: 50px 0;
+    display: block;
+}
+#main-text{
+    background-color: #DDB9A3;
+    padding: 0.5% 1%;
+}
+.features{
+width: 30%;
+margin: 0 auto;
+text-align: center;
+padding-top: 3%;
+}
+.container div img{
+    width: 30%;
+    
+    
+}
+.features span{
+    font-weight: bold;
+}
+
+footer{
+    background: #F9E7DC;
+
+}
+footer div{
+    height: 150px;
+    background-image:url("./assets/footer_img.jpg") ;
+    background-size: cover;
+
+}
